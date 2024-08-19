@@ -1,5 +1,5 @@
 //
-//  BackgroundView.swift
+//  KoreaBackgroundView.swift
 //  Taegeukgi
 //
 //  Created by yc on 8/14/24.
@@ -9,9 +9,9 @@ import UIKit
 import SnapKit
 import Then
 
-final class BackgroundView: UIView {
+final class KoreaBackgroundView: UIView {
 	
-	private lazy var circleView = CircleView().then {
+	private lazy var circleView = KoreaCircleView().then {
 		$0.transform = .init(rotationAngle: atan(2.0 / 3.0))
 	}
 	

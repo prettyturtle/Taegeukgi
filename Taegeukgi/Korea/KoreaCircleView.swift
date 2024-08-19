@@ -1,5 +1,5 @@
 //
-//  CircleView.swift
+//  KoreaCircleView.swift
 //  Taegeukgi
 //
 //  Created by yc on 8/14/24.
@@ -9,10 +9,10 @@ import UIKit
 import SnapKit
 import Then
 
-final class CircleView: UIView {
+final class KoreaCircleView: UIView {
 	
-	private let redColor = UIColor(red: 198 / 255, green: 12 / 255, blue: 48 / 255, alpha: 1.0)
-	private let blueColor = UIColor(red: 0 / 255, green: 52 / 255, blue: 120 / 255, alpha: 1.0)
+	private let redColor = UIColor(hex: "#C60C30")
+	private let blueColor = UIColor(hex: "#003478")
 	
 	override func draw(_ rect: CGRect) {
 		backgroundColor = .white
@@ -101,71 +101,4 @@ final class CircleView: UIView {
 		context.setLineWidth(0)
 		context.strokePath()
 	}
-//	private lazy var redHalfCircleView = UIView().then {
-//		$0.backgroundColor = .red
-//		$0.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
-//	}
-//	
-//	private lazy var redHalfCircleSubView = UIView().then {
-//		$0.backgroundColor = .red
-//	}
-//	
-//	private lazy var blueHalfCircleView = UIView().then {
-//		$0.backgroundColor = .blue
-//		$0.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
-//	}
-//	
-//	private lazy var blueHalfCircleSubView = UIView().then {
-//		$0.backgroundColor = .blue
-//	}
-//	
-//	init() {
-//		super.init(frame: .zero)
-//		
-//		backgroundColor = .white
-//		
-//		setupLayout()
-//	}
-//	
-//	required init?(coder: NSCoder) {
-//		fatalError("init(coder:) has not been implemented")
-//	}
-//	
-//	override func layoutSubviews() {
-//		super.layoutSubviews()
-//		
-//		redHalfCircleView.layer.cornerRadius = redHalfCircleView.frame.width / 2
-//		blueHalfCircleView.layer.cornerRadius = blueHalfCircleView.frame.height
-//		
-//		redHalfCircleView.clipsToBounds = true
-//	}
-//	
-//	private func setupLayout() {
-//		[
-//			redHalfCircleView,
-////			redHalfCircleSubView,
-//			blueHalfCircleView,
-////			blueHalfCircleSubView
-//		].forEach {
-//			addSubview($0)
-//		}
-//		
-//		redHalfCircleView.snp.makeConstraints {
-//			$0.leading.top.trailing.equalToSuperview()
-//			$0.bottom.equalTo(snp.centerY)
-//		}
-//		
-//		blueHalfCircleView.snp.makeConstraints {
-//			$0.leading.bottom.trailing.equalToSuperview()
-//			$0.top.equalTo(snp.centerY)
-//		}
-//		
-////		redHalfCircleView.autoSet
-//		
-////		if roundedView.layer.cornerRadius >= roundedView.frame.height / 2 {
-////					roundedView.autoSetDimension(.height, toSize: roundedView.layer.cornerRadius * 2)
-////				} else {
-////					roundedView.autoPinEdge(toSuperviewEdge: .top)
-////				}
-//	}
 }

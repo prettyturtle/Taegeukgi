@@ -1,22 +1,23 @@
 //
-//  ViewController.swift
+//  USViewController.swift
 //  Taegeukgi
 //
-//  Created by yc on 8/14/24.
+//  Created by yc on 8/19/24.
 //
 
 import UIKit
 import SnapKit
 import Then
 
-final class ViewController: UIViewController {
+final class USViewController: UIViewController {
 	
-	private lazy var backgroundView = BackgroundView()
+	private lazy var backgroundView = USBackgroundView()
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
 		view.backgroundColor = .black
+		navigationController?.navigationBar.topItem?.backButtonTitle = ""
 		
 		setupLayout(for: traitCollection)
 	}
@@ -60,7 +61,7 @@ final class ViewController: UIViewController {
 	private func setupPortraitLayout() {
 		backgroundView.snp.makeConstraints {
 			$0.leading.trailing.equalToSuperview()
-			$0.height.equalTo(backgroundView.snp.width).multipliedBy(2.0 / 3.0)
+			$0.height.equalTo(backgroundView.snp.width).multipliedBy(1.0 / 1.9)
 			$0.center.equalToSuperview()
 		}
 	}
@@ -68,7 +69,7 @@ final class ViewController: UIViewController {
 	private func setupLandscapeLayout() {
 		backgroundView.snp.makeConstraints {
 			$0.top.bottom.equalToSuperview()
-			$0.width.equalTo(backgroundView.snp.height).multipliedBy(1.5)
+			$0.width.equalTo(backgroundView.snp.height).multipliedBy(1.9 / 1.0)
 			$0.center.equalToSuperview()
 		}
 	}

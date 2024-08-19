@@ -9,33 +9,47 @@
 /* Begin PBXBuildFile section */
 		6B9D41FF2C6CF05300173C29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D41FE2C6CF05300173C29 /* AppDelegate.swift */; };
 		6B9D42012C6CF05300173C29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D42002C6CF05300173C29 /* SceneDelegate.swift */; };
-		6B9D42032C6CF05300173C29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D42022C6CF05300173C29 /* ViewController.swift */; };
+		6B9D42032C6CF05300173C29 /* KoreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D42022C6CF05300173C29 /* KoreaViewController.swift */; };
 		6B9D42062C6CF05300173C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B9D42042C6CF05300173C29 /* Main.storyboard */; };
 		6B9D42082C6CF05600173C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B9D42072C6CF05600173C29 /* Assets.xcassets */; };
 		6B9D420B2C6CF05600173C29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B9D42092C6CF05600173C29 /* LaunchScreen.storyboard */; };
 		6B9D42142C6CF11300173C29 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6B9D42132C6CF11300173C29 /* SnapKit */; };
 		6B9D42172C6CF12800173C29 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 6B9D42162C6CF12800173C29 /* Then */; };
-		6B9D42192C6CF30F00173C29 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D42182C6CF30F00173C29 /* BackgroundView.swift */; };
-		6B9D421B2C6CF38400173C29 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D421A2C6CF38400173C29 /* CircleView.swift */; };
+		6B9D42192C6CF30F00173C29 /* KoreaBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D42182C6CF30F00173C29 /* KoreaBackgroundView.swift */; };
+		6B9D421B2C6CF38400173C29 /* KoreaCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D421A2C6CF38400173C29 /* KoreaCircleView.swift */; };
 		6B9D421D2C6D1FF200173C29 /* GeongongamriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D421C2C6D1FF200173C29 /* GeongongamriView.swift */; };
 		6B9D421F2C6E3B9700173C29 /* GeongongamriWrapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D421E2C6E3B9700173C29 /* GeongongamriWrapView.swift */; };
 		6B9D42212C6E496500173C29 /* Geongongamri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D42202C6E496500173C29 /* Geongongamri.swift */; };
+		6B9D42A62C7372CC00173C29 /* FlagListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D42A52C7372CC00173C29 /* FlagListViewController.swift */; };
+		6B9D42A82C7375A600173C29 /* USViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D42A72C7375A600173C29 /* USViewController.swift */; };
+		6B9D42AB2C7375FA00173C29 /* USBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D42AA2C7375FA00173C29 /* USBackgroundView.swift */; };
+		6B9D42AD2C73773600173C29 /* USStripeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D42AC2C73773600173C29 /* USStripeView.swift */; };
+		6B9D42AF2C73789E00173C29 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D42AE2C73789E00173C29 /* UIColor+.swift */; };
+		6B9D42B12C73793800173C29 /* USStarBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D42B02C73793800173C29 /* USStarBoxView.swift */; };
+		6B9D42B32C737A3500173C29 /* USStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D42B22C737A3500173C29 /* USStarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B9D41FB2C6CF05300173C29 /* Taegeukgi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taegeukgi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B9D41FE2C6CF05300173C29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B9D42002C6CF05300173C29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6B9D42022C6CF05300173C29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B9D42022C6CF05300173C29 /* KoreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreaViewController.swift; sourceTree = "<group>"; };
 		6B9D42052C6CF05300173C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B9D42072C6CF05600173C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B9D420A2C6CF05600173C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B9D420C2C6CF05600173C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B9D42182C6CF30F00173C29 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
-		6B9D421A2C6CF38400173C29 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		6B9D42182C6CF30F00173C29 /* KoreaBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreaBackgroundView.swift; sourceTree = "<group>"; };
+		6B9D421A2C6CF38400173C29 /* KoreaCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreaCircleView.swift; sourceTree = "<group>"; };
 		6B9D421C2C6D1FF200173C29 /* GeongongamriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeongongamriView.swift; sourceTree = "<group>"; };
 		6B9D421E2C6E3B9700173C29 /* GeongongamriWrapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeongongamriWrapView.swift; sourceTree = "<group>"; };
 		6B9D42202C6E496500173C29 /* Geongongamri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geongongamri.swift; sourceTree = "<group>"; };
+		6B9D42A52C7372CC00173C29 /* FlagListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagListViewController.swift; sourceTree = "<group>"; };
+		6B9D42A72C7375A600173C29 /* USViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USViewController.swift; sourceTree = "<group>"; };
+		6B9D42AA2C7375FA00173C29 /* USBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USBackgroundView.swift; sourceTree = "<group>"; };
+		6B9D42AC2C73773600173C29 /* USStripeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USStripeView.swift; sourceTree = "<group>"; };
+		6B9D42AE2C73789E00173C29 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		6B9D42B02C73793800173C29 /* USStarBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USStarBoxView.swift; sourceTree = "<group>"; };
+		6B9D42B22C737A3500173C29 /* USStarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USStarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,18 +86,41 @@
 			children = (
 				6B9D41FE2C6CF05300173C29 /* AppDelegate.swift */,
 				6B9D42002C6CF05300173C29 /* SceneDelegate.swift */,
-				6B9D42022C6CF05300173C29 /* ViewController.swift */,
-				6B9D42182C6CF30F00173C29 /* BackgroundView.swift */,
-				6B9D421A2C6CF38400173C29 /* CircleView.swift */,
-				6B9D42202C6E496500173C29 /* Geongongamri.swift */,
-				6B9D421C2C6D1FF200173C29 /* GeongongamriView.swift */,
-				6B9D421E2C6E3B9700173C29 /* GeongongamriWrapView.swift */,
+				6B9D42A52C7372CC00173C29 /* FlagListViewController.swift */,
+				6B9D42022C6CF05300173C29 /* KoreaViewController.swift */,
+				6B9D42A72C7375A600173C29 /* USViewController.swift */,
+				6B9D42AE2C73789E00173C29 /* UIColor+.swift */,
+				6B9D42A92C7375F100173C29 /* US */,
+				6B9D42A42C73727D00173C29 /* Korea */,
 				6B9D42042C6CF05300173C29 /* Main.storyboard */,
 				6B9D42072C6CF05600173C29 /* Assets.xcassets */,
 				6B9D42092C6CF05600173C29 /* LaunchScreen.storyboard */,
 				6B9D420C2C6CF05600173C29 /* Info.plist */,
 			);
 			path = Taegeukgi;
+			sourceTree = "<group>";
+		};
+		6B9D42A42C73727D00173C29 /* Korea */ = {
+			isa = PBXGroup;
+			children = (
+				6B9D42182C6CF30F00173C29 /* KoreaBackgroundView.swift */,
+				6B9D421A2C6CF38400173C29 /* KoreaCircleView.swift */,
+				6B9D42202C6E496500173C29 /* Geongongamri.swift */,
+				6B9D421C2C6D1FF200173C29 /* GeongongamriView.swift */,
+				6B9D421E2C6E3B9700173C29 /* GeongongamriWrapView.swift */,
+			);
+			path = Korea;
+			sourceTree = "<group>";
+		};
+		6B9D42A92C7375F100173C29 /* US */ = {
+			isa = PBXGroup;
+			children = (
+				6B9D42AA2C7375FA00173C29 /* USBackgroundView.swift */,
+				6B9D42AC2C73773600173C29 /* USStripeView.swift */,
+				6B9D42B02C73793800173C29 /* USStarBoxView.swift */,
+				6B9D42B22C737A3500173C29 /* USStarView.swift */,
+			);
+			path = US;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,14 +202,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B9D42032C6CF05300173C29 /* ViewController.swift in Sources */,
+				6B9D42A82C7375A600173C29 /* USViewController.swift in Sources */,
+				6B9D42032C6CF05300173C29 /* KoreaViewController.swift in Sources */,
 				6B9D421F2C6E3B9700173C29 /* GeongongamriWrapView.swift in Sources */,
 				6B9D42212C6E496500173C29 /* Geongongamri.swift in Sources */,
-				6B9D421B2C6CF38400173C29 /* CircleView.swift in Sources */,
+				6B9D42A62C7372CC00173C29 /* FlagListViewController.swift in Sources */,
+				6B9D421B2C6CF38400173C29 /* KoreaCircleView.swift in Sources */,
 				6B9D41FF2C6CF05300173C29 /* AppDelegate.swift in Sources */,
-				6B9D42192C6CF30F00173C29 /* BackgroundView.swift in Sources */,
+				6B9D42192C6CF30F00173C29 /* KoreaBackgroundView.swift in Sources */,
+				6B9D42B32C737A3500173C29 /* USStarView.swift in Sources */,
 				6B9D42012C6CF05300173C29 /* SceneDelegate.swift in Sources */,
 				6B9D421D2C6D1FF200173C29 /* GeongongamriView.swift in Sources */,
+				6B9D42AF2C73789E00173C29 /* UIColor+.swift in Sources */,
+				6B9D42AB2C7375FA00173C29 /* USBackgroundView.swift in Sources */,
+				6B9D42B12C73793800173C29 /* USStarBoxView.swift in Sources */,
+				6B9D42AD2C73773600173C29 /* USStripeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
